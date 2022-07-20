@@ -1,0 +1,36 @@
+.button {
+  width: 100%;
+  height: 40px;
+  border: {
+    color: black;
+    style: solid;
+    width: 1px;
+  };
+  cursor: pointer;
+  font: {
+    size: 16px;
+    weight: bold;
+  }
+  transition: .2s;
+
+  &:hover {
+    letter-spacing: 2px;
+  }
+}
+
+.validate {
+  background: {
+    color: green;
+  };
+}
+
+.no_validate {
+  background-color: gray;
+  opacity: .5;
+}
+
+.delete{
+  background: {
+    color: red;
+  };
+}

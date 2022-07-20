@@ -1,0 +1,32 @@
+.spinner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: {
+    color: gray;
+    width: 6px;
+    style: solid;
+    radius: 50%;
+  };
+  border: {
+    top: {
+      color: black;
+      width: 6px;
+      style: solid;
+    }
+  };
+  animation-name: spinnerAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spinnerAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

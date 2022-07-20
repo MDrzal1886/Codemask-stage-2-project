@@ -1,0 +1,36 @@
+.input_wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .label {
+    font-size: 12px;
+  }
+
+  input {
+    height: 40px;
+    padding: 5px;
+    border: {
+      color: black;
+      style: solid;
+      width: 1px;
+    };
+    line-height: 100%;
+    font-size: 16px;
+
+    &:focus {
+      outline: none;;
+    }
+  }
+
+  .message {
+    min-height: 16px;
+    font-size: 12px;
+    color: red;
+  }
+
+  .color_red {
+    border: {
+      color: red !important;
+    };
+  }
+}

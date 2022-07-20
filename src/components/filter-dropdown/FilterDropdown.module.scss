@@ -1,0 +1,144 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+
+  .dropdown_wrapper {
+    width: 100%;
+
+    .label {
+      font-size: 12px;
+    }
+
+    .input_wrapper {
+      display: flex;
+      height: 40px;
+      border: {
+        color: black;
+        style: solid;
+        width: 1px;
+      };
+      cursor: pointer;
+
+      input {
+        flex-grow: 1;
+        line-height: 100%;
+        padding: 5px;
+        border: none;
+        font-size: 16px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .arrow_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 100%;
+        padding: 5px;
+
+        svg {
+          height: 15px;
+          transform: rotate(-180deg);
+          transition: .2s;
+        }
+      }
+
+      .clear_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 50px;
+        height: 100%;
+
+        svg {
+          height: 15px;
+        }
+      }
+
+      .rotate_arrow {
+        svg {
+          transform: rotate(0);
+        }
+      }
+    }
+
+    .message {
+      display: block;
+      min-height: 16px;
+      font-size: 12px;
+      color: red;
+    }
+  }
+
+  .options_wrapper {
+    position: absolute;
+    top: 58px;
+    width: 100%;
+    min-height: 35px;
+    max-height: 205px;
+    overflow-y: scroll;
+    background: {
+      color: white;
+    };
+    border: {
+      left: {
+        color: black;
+        style: solid;
+        width: 1px;
+      };
+      bottom: {
+        color: black;
+        style: solid;
+        width: 1px;
+      };
+      right: {
+        color: black;
+        style: solid;
+        width: 1px;
+      };
+    };
+    cursor: pointer;
+    z-index: 10;
+
+    .single_option {
+      padding: 5px;
+      line-height: 25px;
+      transition: .2s;
+
+      &:hover {
+        background: {
+          color: gray;
+        };
+      }
+    }
+
+    .spinner_wrapper {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 25px;
+      height: 25px;
+      transform: translate(-50%, -50%);
+    }
+
+    .error_wrapper {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      padding: 5px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      word-break: break-all;
+    }
+  }
+
+  .color_red {
+    border: {
+      color: red !important;
+    };
+  }
+}

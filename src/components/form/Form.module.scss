@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+
+  .column {
+    width: 100%;
+
+    .dropdown_wrapper {
+      .edit_country_name {
+        font: {
+          size: 24px;
+          weight: bold;
+        };
+        text-align: center;
+
+        @media (min-width: 750px) {
+          padding: {
+            top: 23px;
+            bottom: 23px;
+          };
+        }
+      }
+    }
+  }
+
+  @media (min-width: 750px) {
+    flex-direction: row;
+
+    .column:last-of-type {
+      margin: {
+        top: 4px;
+      };
+    }
+
+    .button_wrapper {
+      margin: {
+        top: 14px;
+      };
+    }
+  }
+}

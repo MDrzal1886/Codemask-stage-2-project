@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Codemask-stage-2-project/static/css/main.0cedba5e.css",
+    "main.css": "/Codemask-stage-2-project/static/css/main.06a02dc8.css",
     "main.js": "/Codemask-stage-2-project/static/js/main.27ad0fa8.js",
     "static/media/delete.svg": "/Codemask-stage-2-project/static/media/delete.7ce6f91556a4ab74198bbc556fe56c13.svg",
     "static/media/clear.svg": "/Codemask-stage-2-project/static/media/clear.915082c68151a35bfa062710ba43364d.svg",
     "static/media/edit.svg": "/Codemask-stage-2-project/static/media/edit.1f89f331af4468be609950d63d734c92.svg",
     "static/media/arrow.svg": "/Codemask-stage-2-project/static/media/arrow.034046f1c05b3ea6b052b60ea3a46258.svg",
     "index.html": "/Codemask-stage-2-project/index.html",
-    "main.0cedba5e.css.map": "/Codemask-stage-2-project/static/css/main.0cedba5e.css.map",
+    "main.06a02dc8.css.map": "/Codemask-stage-2-project/static/css/main.06a02dc8.css.map",
     "main.27ad0fa8.js.map": "/Codemask-stage-2-project/static/js/main.27ad0fa8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cedba5e.css",
+    "static/css/main.06a02dc8.css",
     "static/js/main.27ad0fa8.js"
   ]
 }

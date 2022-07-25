@@ -1,7 +1,7 @@
 {
-  "name": "codemask-stage-2-mateusz-drzal",
+  "name": "olympics-app",
   "version": "0.1.0",
-  "homepage": "https://mdrzal1886.github.io/Codemask-stage-2-project/",
+  "homepage": "https://mdrzal1886.github.io/olympics-app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

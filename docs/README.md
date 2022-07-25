@@ -1,5 +1,7 @@
 # olumpics_app
 
+## link to GitHub Pages: https://mdrzal1886.github.io/olympics-app/
+
 #### This app is build by create-react-app
 
 I'm get data from https://restcountries.com/ api.
